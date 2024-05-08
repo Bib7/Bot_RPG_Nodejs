@@ -1,0 +1,24 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "bot": "tsx watch bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.10.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "grammy": "^1.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  }
+}
